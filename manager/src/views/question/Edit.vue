@@ -11,7 +11,7 @@
         </el-form-item>
         <el-form-item
           label="内容">
-          <div v-if="disabled">{{question.content}}</div>
+          <div v-if="disabled" v-html="question.content"></div>
           <tinymce v-else v-model="question.content"/>
         </el-form-item>
         <el-form-item style="text-align: center">
