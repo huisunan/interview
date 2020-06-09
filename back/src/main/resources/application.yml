@@ -1,0 +1,13 @@
+
+mybatis-plus:
+  typeEnumsPackage: xyz.hsn.interview.enums
+
+server:
+  port: 9000
+spring:
+  profiles:
+    active: @active@
+  resources:
+    static-locations:
+      - classpath:/static/web
+      - classpath:/static/admin

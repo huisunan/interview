@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.103.218.116:3306/interview?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: Prince981115
+
+mybatis-plus:
+  typeEnumsPackage: xyz.hsn.interview.enums
+
